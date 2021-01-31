@@ -585,7 +585,7 @@ Beberapa meme untuk bersenang-senang atau apa pun!
  × /warm: Peluk pengguna dengan hangat, atau peluk jika bukan balasan.
  × /punch: Pukul pengguna, atau dapatkan pukulan jika bukan balasan.
  × /police: Berikan Animasi sirene Polisi
- × thonkify: Membuat text thonkify
+ × /thonkify: Membuat text thonkify
 
 *Meme berbasis regex:*
 
@@ -603,7 +603,7 @@ __mod_name__ = "Memes"
 
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug, run_async=True)
 DECIDE_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(kagarobot)"), decide, friendly="decide", run_async=True
+    Filters.regex(r"(?i)(everobot)"), decide, friendly="decide", run_async=True
 )
 SNIPE_HANDLER = CommandHandler(
     "snipe",
